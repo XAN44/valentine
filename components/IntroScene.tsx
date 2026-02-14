@@ -36,10 +36,7 @@ export const IntroScene: React.FC<IntroSceneProps> = ({ onStart }) => {
           Day My Love
         </h2>
 
-        <p className="text-rose-800/80 mb-8 font-light text-lg">
-          การเดินทางแห่งรักที่ไม่มีวันสิ้นสุด<br/>
-          เหมือนกับโลกของ Infinity
-        </p>
+   
 
         <motion.button
           whileHover={{ scale: 1.05, boxShadow: "0px 0px 15px rgb(244, 63, 94)" }}
